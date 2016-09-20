@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Shopify Cost Counter</title>
+        <meta charset=utf-8>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/css/index.css">
+        <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="scripts/main.js"></script>
+
+        
+    </head>
+    <body>
+
+    <i class="em em-moneybag"></i><i class="em em-heavy_plus_sign"></i><i class="em em-dollar"></i><span id="title">Shopify Cost Counter</span><i class="em em-dollar"></i><i class="em em-heavy_plus_sign"></i><i class="em em-moneybag"></i>
+    </br>
+    </br>
+    
+    Enter Your Url
+    <input type="text" id="shopifyURL" value="http://shopicruit.myshopify.com/">
+    </br>
+
+    Enter Your Interested Product Types (Up To 6)
+    <input type="text" class="productTypes" type="text" name="productType1" value="Watch">
+    <input type="text" class="productTypes" type="text" name="productType2" value="Clock">
+    <input type="text" class="productTypes" type="text" name="productType3">
+    <input type="text" class="productTypes" type="text" name="productType4">
+    <input type="text" class="productTypes" type="text" name="productType5">
+    <input type="text" class="productTypes" type="text" name="productType6">
+    </br>
+    <button>Calculate</button>
+    </br>
+    </br>
+
+    <span id="resultText">It Would Cost You <b><span id="calcCost"></span></b> To Purchase The Specified Product Types In The Store.</span>
+
+
+        
+    </body>
+</html>

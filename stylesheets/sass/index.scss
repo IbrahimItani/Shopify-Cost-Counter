@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* Variables */
+$shopify-green: #7ab55c;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family:'Roboto', sans-serif;
+    background-color: $shopify-green;
+    color: white;
+    text-align: center;
+}
+
+#title {
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 2.0em;
+}
+
+#calcCost {
+  background-image: -webkit-linear-gradient(#FFD700 50%, white 50%);
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: 100% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+}
+
+#resultText {
+  margin-bottom: 10%;
+  visibility: hidden;
+}
+
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+
+input{
+  display: block;
+  margin: 2em auto;
+  padding: 0.5em 0.25em;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 1.0em;
+  box-shadow: 0 0 1em 0.25em rgba(0,0,0,0.2);
+}
+
+button {
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 180px;
+  background: #fff;
+  border: 2px solid $shopify-green;
+  border-radius: 4px;
+  color:black;
+  text-shadow:0;
+  font:{
+    size:16px;
+  }
+  cursor: pointer;
+  transition: all 0.25s ease;
+  &:hover {
+    color:white;
+    background: $shopify-green;
+  }
+  &:active {
+    //letter-spacing: 2px;
+    letter-spacing: 2px ;
+  }
+}

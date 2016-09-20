@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+/* Variables */
+/* line 6, ../sass/index.scss */
+* { margin: 0; padding: 0; }
+
+/* line 11, ../sass/index.scss */
+html, body { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Roboto', sans-serif; background-color: #7ab55c; color: white; text-align: center; }
+
+/* line 23, ../sass/index.scss */
+#title { margin-top: 10%; font-weight: bold; font-size: 2.0em; }
+
+/* line 29, ../sass/index.scss */
+#calcCost { background-image: -webkit-linear-gradient(#FFD700 50%, white 50%); background-repeat: repeat; background-position: 0 0; background-size: 100% 50px; -webkit-text-fill-color: transparent; -webkit-background-clip: text; -webkit-animation: stripes 2s linear infinite; animation: stripes 2s linear infinite; }
+
+/* line 40, ../sass/index.scss */
+#resultText { margin-bottom: 10%; visibility: hidden; }
+
+@-webkit-keyframes stripes { 100% { background-position: 0 -50px; } }
+@keyframes stripes { 100% { background-position: 0 -50px; } }
+/* line 57, ../sass/index.scss */
+input { display: block; margin: 2em auto; padding: 0.5em 0.25em; border: none; border-radius: 0.2em; font-size: 1.0em; box-shadow: 0 0 1em 0.25em rgba(0, 0, 0, 0.2); }
+
+/* line 67, ../sass/index.scss */
+button { outline: none; height: 40px; text-align: center; width: 180px; background: #fff; border: 2px solid #7ab55c; border-radius: 4px; color: black; text-shadow: 0; font-size: 16px; cursor: pointer; transition: all 0.25s ease; }
+/* line 82, ../sass/index.scss */
+button:hover { color: white; background: #7ab55c; }
+/* line 86, ../sass/index.scss */
+button:active { letter-spacing: 2px; }
