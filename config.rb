@@ -4,6 +4,4 @@
 http_path = "/"
 css_dir = "stylesheets/css"
 sass_dir = "stylesheets/sass"
-images_dir = "assets/images"
-javascripts_dir = "scripts"
 output_style = :compact
