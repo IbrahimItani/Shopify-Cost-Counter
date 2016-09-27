@@ -69,7 +69,7 @@ $(document).ready(function() {
     }
 
     // use setTimeout() to execute
-    setTimeout(displayCost, 500)
+    setTimeout(displayCost, 1000)
 
 
 
